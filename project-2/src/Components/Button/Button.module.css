@@ -1,0 +1,44 @@
+.primary_btn,
+.secondary_btn {
+  width: 220px;
+  height: 44px;
+
+  padding: 5px;
+  font-size: medium;
+  font-weight: 500;
+
+  background-color: black;
+  color: white;
+
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.secondary_btn {
+  margin-left: 16px;
+}
+
+.terminary_btn {
+  width: 472px;
+  height: 44px;
+  font-weight: 600;
+
+  margin-top: 20px;
+
+  background-color: white;
+  color: black;
+
+  border: 2px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
